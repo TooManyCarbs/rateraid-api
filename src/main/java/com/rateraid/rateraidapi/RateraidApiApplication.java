@@ -1,4 +1,4 @@
-package com.rateraid.api;
+package com.rateraid.rateraidapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.rateraid.api.user;
+package com.rateraid.rateraidapi.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.AuthorityUtils;

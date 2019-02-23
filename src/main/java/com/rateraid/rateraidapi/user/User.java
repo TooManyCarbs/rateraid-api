@@ -1,8 +1,8 @@
-package com.rateraid.api.user;
+package com.rateraid.rateraidapi.user;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.rateraid.api.core.BaseEntity;
-import com.rateraid.api.review.Review;
+import com.rateraid.rateraidapi.core.BaseEntity;
+import com.rateraid.rateraidapi.review.Review;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 

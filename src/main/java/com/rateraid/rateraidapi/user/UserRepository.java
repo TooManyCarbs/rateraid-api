@@ -1,4 +1,4 @@
-package com.rateraid.api.user;
+package com.rateraid.rateraidapi.user;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;

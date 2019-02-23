@@ -1,4 +1,4 @@
-package com.rateraid.api.core;
+package com.rateraid.rateraidapi.core;
 
 
 import javax.persistence.GeneratedValue;

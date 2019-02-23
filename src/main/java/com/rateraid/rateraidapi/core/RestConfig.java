@@ -1,4 +1,4 @@
-package com.rateraid.api.core;
+package com.rateraid.rateraidapi.core;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.rateraid.api.review;
+package com.rateraid.rateraidapi.review;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;

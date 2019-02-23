@@ -1,7 +1,7 @@
-package com.rateraid.api.review;
+package com.rateraid.rateraidapi.review;
 
-import com.rateraid.api.user.User;
-import com.rateraid.api.user.UserRepository;
+import com.rateraid.rateraidapi.user.User;
+import com.rateraid.rateraidapi.user.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.core.annotation.HandleBeforeCreate;
 import org.springframework.data.rest.core.annotation.RepositoryEventHandler;

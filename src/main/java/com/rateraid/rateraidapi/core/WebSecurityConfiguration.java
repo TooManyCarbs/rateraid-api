@@ -1,7 +1,7 @@
-package com.rateraid.api.core;
+package com.rateraid.rateraidapi.core;
 
-import com.rateraid.api.user.DetailsService;
-import com.rateraid.api.user.User;
+import com.rateraid.rateraidapi.user.DetailsService;
+import com.rateraid.rateraidapi.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

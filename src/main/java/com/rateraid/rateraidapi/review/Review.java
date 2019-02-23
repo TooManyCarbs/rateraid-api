@@ -1,11 +1,11 @@
-package com.rateraid.api.review;
+package com.rateraid.rateraidapi.review;
 
-import com.rateraid.api.core.BaseEntity;
-import com.rateraid.api.media.Book;
-import com.rateraid.api.media.Game;
-import com.rateraid.api.media.Movie;
-import com.rateraid.api.media.TvSeries;
-import com.rateraid.api.user.User;
+import com.rateraid.rateraidapi.core.BaseEntity;
+import com.rateraid.rateraidapi.media.Book;
+import com.rateraid.rateraidapi.media.Game;
+import com.rateraid.rateraidapi.media.Movie;
+import com.rateraid.rateraidapi.media.TvSeries;
+import com.rateraid.rateraidapi.user.User;
 
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;

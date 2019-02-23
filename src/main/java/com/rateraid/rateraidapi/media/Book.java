@@ -1,8 +1,8 @@
-package com.rateraid.api.media;
+package com.rateraid.rateraidapi.media;
 
-import com.rateraid.api.core.BaseEntity;
-import com.rateraid.api.core.Reviewable;
-import com.rateraid.api.review.Review;
+import com.rateraid.rateraidapi.core.BaseEntity;
+import com.rateraid.rateraidapi.core.Reviewable;
+import com.rateraid.rateraidapi.review.Review;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;

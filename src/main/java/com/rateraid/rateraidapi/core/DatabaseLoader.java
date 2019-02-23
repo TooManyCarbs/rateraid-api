@@ -1,8 +1,7 @@
-package com.rateraid.api.core;
+package com.rateraid.rateraidapi.core;
 
-import com.rateraid.api.media.*;
-import com.rateraid.api.user.User;
-import com.rateraid.api.user.UserRepository;
+import com.rateraid.rateraidapi.media.*;
+import com.rateraid.rateraidapi.user.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -157,7 +156,7 @@ public class DatabaseLoader implements ApplicationRunner {
                         new User("richdonellan", "password", new String[]{"ROLE_USER"}),
                         new User("albertqerimi", "password", new String[]{"ROLE_USER"}));
 
-        User superUser = new User("jhammond", "password1", new String[]{"ROLE_USER", "ROLE_ADMIN"});
+        User superUser = new User("superuser", "password1", new String[]{"ROLE_USER", "ROLE_ADMIN"});
         users.saveAll(reviewers);
         users.save(superUser);
     }

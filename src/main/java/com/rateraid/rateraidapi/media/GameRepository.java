@@ -1,4 +1,4 @@
-package com.rateraid.api.media;
+package com.rateraid.rateraidapi.media;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
